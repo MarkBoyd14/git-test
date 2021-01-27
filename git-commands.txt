@@ -1,6 +1,16 @@
+// Basic git commands
 git init
 git status
 git add
 git commit -m "<message>"
 git log -oneline
-git checkout <code> <filename>
+git checkout <code> <file>
+git reset HEAD <file>
+git reset <file>
+git reset
+git checkout -- <file name>
+
+//Basic online git commands
+git remote add origin <repository URL>
+git push -u origin master
+git clone <repository URL>
