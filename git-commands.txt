@@ -1,5 +1,6 @@
 git init
 git status
 git add
-git commit -m
+git commit -m "<message>"
 git log -oneline
+git checkout <code> <filename>
